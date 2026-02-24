@@ -40,9 +40,10 @@ button {
 }
 
 .home{
-    display: grid;
-
-    grid-auto-flow: column;
+    display: flex;
+    justify-content: space-between;
+    width: 1248px;
+    height: 482px;
 }
 
 .home h2{
@@ -57,14 +58,14 @@ button {
 }
 
 main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 78vh;
 }
 
-
-footer {
-
-}
 
 .contatos{
     display: flex;
@@ -74,28 +75,19 @@ footer {
 
 .copyright{
     display: flex;
-    flex-direction: row;
+    text-align: center;
+
 }
 
 .contato-social{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 50%;
-    border: 2px;
+    /* border: 2px;
+    border-radius: 50%; */
     border-color: #ffffff;
+    gap: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -103,20 +95,8 @@ footer{
     background-color:#3347B0;
     height: 140px;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
     color: #ffffff;
-}
-
-.contatos-container {
-    color: #ffffff;
-    flex-direction: column;
-}
-
-.copyright {
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-    background-color:#3347B0;
 }
