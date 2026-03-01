@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="apps.js"></script>
+    <script src="apps.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Lion School</title>
 </head>
@@ -20,14 +20,15 @@
             <span>Sair</span>
         </button>
     </header>
+    
     <main>
     
         <div class="home">
 
-            <div>
-                <h2>Escolha um <br>
-                    <span>curso</span> para gerenciar
-                </h2>
+            <div class="texto-curso">
+                <h2>Escolha um <span>curso</span> <br>
+                    para gerenciar</h2>
+
                 <img src="/img/icon-dispositivos.svg" alt="dispositivos">
             </div>
 
@@ -37,16 +38,19 @@
 
             <div class="cursos">
                 <div class="curso-ds">
-                    <button><img src="/img/option-ds.svg" alt="Curso de ds"></button>
+                    <button>
+                        <img src="/img/option-ds.svg" alt="Curso de ds">
+                    </button>
                 </div>
     
                 <div class="curso-redes">
-                    <button><img src="/img/option-redes.svg" alt="Curso de redes"></button>
+                    <button>
+                        <img src="/img/option-redes.svg" alt="Curso de redes">
+                    </button>
                 </div>
             </div>
-            </div>
-            
 
+        </div>  
     </main>
 
 
@@ -70,25 +74,25 @@
         </div>
 
         <div class="copyright">
-            <p class="copyright">
-                © 2026 | Isabelle Abreu
+            <p>
+                Copyright © 2026 | Isabelle Abreu
             </p>
         </div>
 
         <div class="contato-social">
-            <div class="youtube">
+            <div class="social-icon">
                 <img src="/img/icon-youtube.svg" alt="Youtube">
             </div>
 
-            <div class="twitter">
+            <div class="social-icon">
                 <img src="/img/icon-twitter.svg" alt="Twitter">
             </div>
 
-            <div class="instagram">
+            <div class="social-icon">
                 <img src="/img/icon-instagram.svg" alt="Instagram">
             </div>
 
-            <div class="facebook">
+            <div class="social-icon">
                 <img src="/img/icon-facebook.svg" alt="Facebook">
             </div>
         </div>
